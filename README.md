@@ -5,9 +5,13 @@
 ## Integrante 1:                                    
 Miguel Angel Galaz Sanchez  
 ### correo:
-ma.galaz@urjc.es
+ma.galaz@alumnos.urjc.es
 ### github:
 MiguelAngelGalazSanchez
 
 ## Integrante 2:
-Ana Maria Alcaide
+Ana Maria Alcaide Recio
+### correo:
+am.alcaide@alumnos.urjc.es
+### github:
+MiguelAngelGalazSanchez
