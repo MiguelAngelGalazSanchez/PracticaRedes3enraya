@@ -1,6 +1,6 @@
 # PracticaRedes3enraya
 
-3 en raya
+* 3 en Raya *
 
 ## Integrante 1:                                    
 Miguel Angel Galaz Sanchez  
