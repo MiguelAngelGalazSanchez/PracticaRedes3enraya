@@ -2,12 +2,12 @@
 
 3 en raya
 
-*Integrante 1:                                    
+## Integrante 1:                                    
 Miguel Angel Galaz Sanchez  
-*correo:
+correo:
 ma.galaz@urjc.es
-*github:
+github:
 MiguelAngelGalazSanchez
 ////
-*Integrante 2:
+## Integrante 2:
 Ana Maria Alcaide
