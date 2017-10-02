@@ -1,2 +1,4 @@
 # PracticaRedes3enraya
-Practica de redes
+Practica de Juegos en Red. 
+Grado Diseño y Desarrollo de Videojuegos.
+3º curso
