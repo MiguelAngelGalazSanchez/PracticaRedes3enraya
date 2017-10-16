@@ -1,4 +1,4 @@
-# PracticaRedes3enraya
+# PracticaRedes3enraya 16 de octubre de 2017 , realizado de 11 a 1 en común
 ## app.js
 var game = new Phaser.Game(1024, 800, Phaser.AUTO , 'phaser-example', { preload: preload, create: create});
 var test;
