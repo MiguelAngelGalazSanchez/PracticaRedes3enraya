@@ -1,9 +1,11 @@
 # PracticaRedes3enraya
 
+El juego constará de hacerse con 3 equis (en caso del jugador 1) o 3 ceros consecutivos (en caso del jugador 2) para ganar al contrincante, también es apto ganar agrupando estos en diagonal.
 
-Aparte del juego como se conoce vamos a soportar un muro de la fama con los mejores 10 jugadores.
-Otra mejora es que se podrán jugar varias partidas simultaneamente.
-Incluiremos un chat para que se comuniquen los jugadores.
+Existirá un muro de la fama en el cual podremos ver los 10 mejores jugadores. Esto se implementará en fases avanzadas ya que es necesario disponer de otros jugadores para hacer esto.
+
+Otra incorporación que se hará será un chat para que los jugadores se comuniquen entre ellos, para hacer así más entretenido el juego.
+
 
 ## Integrante 1:                                    
 Miguel Angel Galaz Sanchez  
