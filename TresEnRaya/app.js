@@ -75,15 +75,21 @@ function create()
    
    var mejoresjugadores=game.add.sprite(1300,500, 'mj');
     
-   
+   //Habilitamos poder clikear sobre los botones y que se cambie el cursor a una mano
     
         play.inputEnabled=true;
         play.input.useHandCursor = true;
         mejoresjugadores.inputEnabled=true;
         mejoresjugadores.input.useHandCursor = true;
+    
+    //Asociamos los eventos de raton necesarios a sus funciones
+    
+        play.events.onInputOver.add(alfachangeplay, this)
+        mejoresjugadores.events.onInputOver.add(alfachangeplay, this)
         play.events.onInputDown.add(generartablero, this);
         mejoresjugadores.events.onInputDown.add(generarjugadores, this);
-    
+        play.events.onInputOut.add(alfachangeplay2, this)
+        mejoresjugadores.events.onInputOut.add(alfachangeplay2, this)
    
    
     
@@ -93,30 +99,45 @@ function create()
     
     
 }
+function alfachangeplay(a)
+{
+    //Se llama al pasar el raton por encima
+    a.alpha=0.7;
+}
+function alfachangeplay2(a)
+{ 
+    //Se llama al dejar de pasar el raton por encima
+    a.alpha=1;
+}
+
 
 
 function generartablero(play)
-{ 
+{   
     board= game.add.sprite(game.world.centerX/2+200, 250, 'board');
+    //Rellenamos nuestro array tablero con la función que hacia un return de un array
     tablero=creartablero();
+    //Destruimos el boton play para que no interfiera en la partida
     play.destroy();
     
     
 }
-function generarjugadores(play,mejoresjugadores)
+function generarjugadores(play)
 {
+    //Generamos una simulación de lo que saldría al dar a mejores jugadores con mero texto por pantalla
    scoreText = game.add.text(100, 200, 'Mejores Jugadores', { fontSize: '32px', fill: '#ffffff' }); 
    scoreText = game.add.text(150, 250, '1.Juan', { fontSize: '20px', fill: '#ffffff' });
    scoreText = game.add.text(150, 300, '2.Ana', { fontSize: '20px', fill: '#ffffff' });
    scoreText = game.add.text(150, 350, '3.Miguel', { fontSize: '20px', fill: '#ffffff' });
    scoreText = game.add.text(150, 400, '4.Pedro', { fontSize: '20px', fill: '#ffffff' });
+    //Destruimos el boton Mejoresjugadores para que no interfiera en la partida
    play.destroy();
    
 }
 
 function update()
 {
-    
+    //Al llamarse cada frame , hacemos que si en  cualquier momento se pincha una ficha active su evento de raton al clikearla
     
     for(i=0;i<tablero.length;i++)
         {
@@ -125,6 +146,7 @@ function update()
                  
         }
     
+    //comprobamos las posibles soluciones ganadoras
      if((ganadorX[0]==='X')&&(ganadorX[1]==='X')&&(ganadorX[2]==='X'))
          
         {
@@ -267,6 +289,10 @@ function update()
 function change(tc) {
     //Administra los cambios de ficha
    
+    
+    //Si la ficha esta boca abajo(aun no la ha pulsado ningun jugador ) y es el turno del juegador uno , pone una X , cambia el turno y añade 
+    //al array en el cual comprobamos la solución una X
+
        if(
        (tc.key=='fondo')&&(jugador1==true)   
        )
@@ -284,6 +310,8 @@ function change(tc) {
                   
                   
             } 
+    
+    //Hace lo mismo pero poniendo un 0 ya que es otro jugador y rellenando el array con el que comprobamos la solución con un 0
        else if
            (
        (tc.key=='fondo')&&(jugador2==true)     
