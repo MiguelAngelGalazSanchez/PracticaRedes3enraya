@@ -6,6 +6,8 @@ var tablero=[];
 var victoria;
 var titulo;
 var play;
+var sound
+var sound2;
 var mejoresjugadores;
 var ganadorX = ["-", "-", "-", 
                "-", "-", "-",
@@ -28,6 +30,9 @@ function preload() {
     game.load.image('0', 'o-png.png');
     game.load.image('board', 'board.png');
     game.load.image('trans','fondoCartaTransp.png')
+    game.load.audio('click', 'click.mp3');
+    game.load.audio('card', 'card.wav');
+    
 }
 
 function creartablero()
@@ -70,7 +75,8 @@ function create()
    
    var fondo=game.add.sprite(0, 0, 'fondogrande');
    var titulo=game.add.sprite(500, 60, 'titulo');
-   
+   sound = game.add.audio('click');
+   sound2 = game.add.audio('card');
    var play=game.add.sprite(400, 500, 'play');
    
    var mejoresjugadores=game.add.sprite(1300,500, 'mj');
@@ -114,9 +120,11 @@ function alfachangeplay2(a)
 
 function generartablero(play)
 {   
+    
     board= game.add.sprite(game.world.centerX/2+200, 250, 'board');
     //Rellenamos nuestro array tablero con la función que hacia un return de un array
     tablero=creartablero();
+    sound.play();
     //Destruimos el boton play para que no interfiera en la partida
     play.destroy();
     
@@ -124,6 +132,7 @@ function generartablero(play)
 }
 function generarjugadores(play)
 {
+    sound.play();
     //Generamos una simulación de lo que saldría al dar a mejores jugadores con mero texto por pantalla
    scoreText = game.add.text(100, 200, 'Mejores Jugadores', { fontSize: '32px', fill: '#ffffff' }); 
    scoreText = game.add.text(150, 250, '1.Juan', { fontSize: '20px', fill: '#ffffff' });
@@ -162,7 +171,7 @@ function update()
          
         {
             var victoria=game.add.sprite(550,200,'win')
-            console.log("win");
+            
             console.log("win");
             game.paused=true;
             
@@ -252,7 +261,7 @@ function update()
         }
       else if((ganadorX[2]==='0')&&(ganadorX[5]==='0')&&(ganadorX[8]==='0'))
          
-        {
+        {var victoria=game.add.sprite(550,200,'win2')
             console.log("win");
             game.paused=true;
             
@@ -268,6 +277,7 @@ function update()
      else if((ganadorX[6]==='0')&&(ganadorX[7]==='0')&&(ganadorX[8]==='0'))
          
         {
+            var victoria=game.add.sprite(550,200,'win2')
             console.log("win");
             game.paused=true;
             
@@ -300,6 +310,7 @@ function change(tc) {
                   tc.loadTexture('X', 0, false);
                   jugador1=false;
                   jugador2=true;
+                  sound2.play()
                   ganadorX[tc.i]='X';
                   
                   
@@ -320,6 +331,7 @@ function change(tc) {
                   tc.loadTexture('0', 0, false);
                   jugador1=true
                   jugador2=false;
+                  sound2.play()
                   ganadorX[tc.i]='0';
                   
                
