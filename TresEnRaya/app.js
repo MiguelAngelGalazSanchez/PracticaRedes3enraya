@@ -139,6 +139,10 @@ function generarjugadores(play)
    scoreText = game.add.text(150, 300, '2.Ana', { fontSize: '20px', fill: '#ffffff' });
    scoreText = game.add.text(150, 350, '3.Miguel', { fontSize: '20px', fill: '#ffffff' });
    scoreText = game.add.text(150, 400, '4.Pedro', { fontSize: '20px', fill: '#ffffff' });
+    
+    
+    
+    
     //Destruimos el boton Mejoresjugadores para que no interfiera en la partida
    play.destroy();
    
