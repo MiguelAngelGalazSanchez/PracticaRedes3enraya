@@ -13,7 +13,7 @@
 ![Tercera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/4pantalla.png)
 
 
-![Cuarta Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/5pantalla.png)
+![Cuarta Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/5pantalla.PNG)
 
 
 
