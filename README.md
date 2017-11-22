@@ -20,6 +20,6 @@ Cuando cliqueamos en MEJORES JUGADORES se nos redirecciona a una página donde o
 ![Quinta Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/5pantalla.PNG)
 # Diagrama de clases
 Aqui se muestran las clases y la relación entre ellas.
-[Diagrama de Clases](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/DiagramaRedes.PNG)
+![Diagrama de Clases](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/DiagramaRedes.png)
 
 
