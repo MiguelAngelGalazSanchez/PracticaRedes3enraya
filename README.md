@@ -18,6 +18,8 @@ Cuando Se han jugado un par de partidas con diferentes usuarios y gana alguno, p
 
 Cuando cliqueamos en MEJORES JUGADORES se nos redirecciona a una página donde obtendremos las partidas jugadas por los mejores jugadores ordenadas por puntos. Y que se irán actualizando en medida que jugamos.
 ![Quinta Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/5pantalla.PNG)
-
+# Diagrama de clases
+Aqui se muestran las clases y la relación entre ellas.
+[Diagrama de Clases](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/DiagramaRedes.PNG)
 
 
