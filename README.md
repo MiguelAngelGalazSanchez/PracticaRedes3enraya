@@ -10,10 +10,10 @@
 ![Segunda Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/3Pantalla.png)
 
 
-![Tercera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/4Pantalla.png)
+![Tercera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/4pantalla.png)
 
 
-![Cuarta Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/5Pantalla.png)
+![Cuarta Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/5pantalla.png)
 
 
 
