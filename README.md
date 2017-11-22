@@ -1,19 +1,19 @@
 # Como se juega
 
-![Primera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/1pantalla.png)
+![Primera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/1Pantalla.png)
 
 
 
-![Segunda1 Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/2pantalla.png)
+![Segunda1 Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/2Pantalla.png)
 
 
-![Segunda Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/3pantalla.png)
+![Segunda Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/3Pantalla.png)
 
 
-![Tercera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/4pantalla.png)
+![Tercera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/4Pantalla.png)
 
 
-![Cuarta Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/5pantalla.png)
+![Cuarta Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/5Pantalla.png)
 
 
 
