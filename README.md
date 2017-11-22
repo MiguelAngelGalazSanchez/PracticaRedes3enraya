@@ -1,6 +1,6 @@
 # Como se juega
 
-![Primera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/tree/Favev3/Imagenes%20Fase3/1Pantalla.png)
+![Primera Pantalla](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/Favev3/Imagenes%20Fase3/1Pantalla.png)
 
 
 
