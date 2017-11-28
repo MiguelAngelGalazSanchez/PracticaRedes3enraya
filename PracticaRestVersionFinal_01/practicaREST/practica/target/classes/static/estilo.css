@@ -1,0 +1,96 @@
+#puntuaciones{
+
+    position:relative;
+    top: 15%; 
+    left: 40%;
+
+}
+
+#atras {
+    margin-top: 10%;
+    margin-left:47%;
+
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 0 4px rgb(101, 101, 101);
+    text-shadow: 2px 2px #ffffff;
+    font-family: Showcard Gothic;
+    font-size: 25px; 
+    border: none;
+    color: black;
+    cursor: pointer;
+    background: -webkit-linear-gradient(white, purple);
+    border-radius: 13px;
+    border: 1px solid black;
+    -webkit-box-shadow: inset -6px -9px 9px -2px rgba(0,0,0,0.51);
+    -moz-box-shadow: inset -6px -9px 9px -2px rgba(0,0,0,0.51);
+    box-shadow: inset -6px -9px 9px -2px rgba(0,0,0,0.51);
+
+}
+
+#atras:hover {
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.72), rgba(128, 0, 128, 0.59));
+    color: rgba(0, 0, 0, 0.63);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.69);
+}
+#atras:active {
+
+    transform: translateY(4px);
+}
+
+
+
+
+body{
+    background-image: url(/FONDO.png);
+}
+h1 {
+    font-size: 60px; 
+    font-family: Showcard Gothic;
+
+    text-align: center;
+    margin-top: 15%; 
+    color: white;
+    text-shadow:5px 5px 3px black;
+
+}
+
+
+
+table td {
+    margin-top: 5%;
+    margin-left: 35%;
+    border-collapse: separate;
+    font-family: Showcard Gothic;
+    text-shadow:2px 1px 2px white; 
+    text-align: left;
+    padding: 4px 5px;
+    padding-right: 5px;
+    border-radius:15px;
+    background: -webkit-linear-gradient(white, purple);
+    font-size: 25px; 
+    box-shadow: 5px 5px 2px black;
+}
+
+table {
+
+    width: 20%;
+    border-collapse: separate;
+
+}
+
+#phaser
+{
+
+    float:left;
+}
+
+
+
+
+
+
+
