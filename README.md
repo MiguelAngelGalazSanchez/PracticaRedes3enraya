@@ -25,7 +25,7 @@ El protocolo se divide en dos partes: la negociación y la transferencia de dato
 + Podemos meternos en mejores jugadores para comprobar los puntos que llevan acumulados los jugadores en ambas pantallas y dándole atrás podemos volver a jugar o bien con nuevos jugadores o con los mismos.
 
 # DIAGRAMA
-
+![Diagrama](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/diagramaws.png)
 # LINK VIDEO
 
 
