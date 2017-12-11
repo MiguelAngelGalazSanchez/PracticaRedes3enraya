@@ -1,5 +1,8 @@
 # PracticaRedes3enraya
+#PROTOCOLO USADO
+El protocolo se divide en dos partes: la negociación y la transferencia de datos. Como este coexiste con HTTP, la primera comunicación debe realizarse necesariamente a través de una petición HTTP.
 
+#CÓMO JUGAR
 ![Pantalla de inicio](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/Pantalla%20de%20inicio.PNG)
 + Abrimos dos pantallas diferentes en nuestro navegador con la url: locahost:8090/TresEnRaya.html
 
@@ -21,7 +24,8 @@
 ![MejorJugador](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/MejoresJugadores.PNG)
 + Podemos meternos en mejores jugadores para comprobar los puntos que llevan acumulados los jugadores en ambas pantallas y dándole atrás podemos volver a jugar o bien con nuevos jugadores o con los mismos.
 
+#DIAGRAMA
 
-
+#LINK VIDEO
 
 
