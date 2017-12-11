@@ -1,4 +1,3 @@
 # PracticaRedes3enraya
-Practica de Juegos en Red. 
-Grado Diseño y Desarrollo de Videojuegos.
-3º curso
+
+![Primera Pantalla]https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/Pantalla%20de%20inicio.PNG)
