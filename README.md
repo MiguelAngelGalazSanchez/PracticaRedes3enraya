@@ -7,13 +7,13 @@
 + Le damos a play en una de las pantallas, ingresamos el nombre del jugador 1. Y esperamos a que llegue el jugador 2.
 
 ![Jugador2](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/jugador2.PNG)
-+Ingresamos el nombre del jugador 2.Y comienza el juego el juego.
++ Ingresamos el nombre del jugador 2.Y comienza el juego el juego.
 
 ![Poner_X](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/PonerX.PNG)
-+Añadimos una X, y no podemos añadir más fichas hasta que el otro jugador ponga la suya.
++ Añadimos una X, y no podemos añadir más fichas hasta que el otro jugador ponga la suya.
 
 ![Poner_O](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/PonerO.PNG)
-+Se añade el 0 y esperamos al otro jugador
++ Se añade el 0 y esperamos al otro jugador
 
 ![Ganador1](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/GanarJugador1.PNG)
 + Una vez terminado el juego aparecerá el mensaje del jugador que ha ganado la partida.
