@@ -18,10 +18,10 @@ El protocolo se divide en dos partes: la negociación y la transferencia de dato
 ![Poner_O](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/PonerO.PNG)
 + Se añade el 0 y esperamos al otro jugador
 
-![Ganador1](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/GanarJugador1.PNG)
+![Ganador2](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/GanarJugador2.PNG)
 + Una vez terminado el juego aparecerá el mensaje del jugador que ha ganado la partida.
 
-![MejorJugador](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/MejoresJugadores.PNG)
+![MejorJugador](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/MejoresJugadores2.PNG)
 + Podemos meternos en mejores jugadores para comprobar los puntos que llevan acumulados los jugadores en ambas pantallas y dándole atrás podemos volver a jugar o bien con nuevos jugadores o con los mismos.
 
 # DIAGRAMA
