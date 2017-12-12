@@ -27,6 +27,6 @@ El protocolo se divide en dos partes: la negociación y la transferencia de dato
 # DIAGRAMA
 ![Diagrama](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/diagramaws.png)
 # LINK VIDEO
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://www.youtube.com/watch?v=f1HxMqZEeeU&feature=youtu.be "Everything Is AWESOME")
-https://www.youtube.com/watch?v=f1HxMqZEeeU&feature=youtu.be
+[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://www.youtube.com/watch?v=f1HxMqZEeeU&feature=youtu.be "Tres en raya con Websocket")
+
 
