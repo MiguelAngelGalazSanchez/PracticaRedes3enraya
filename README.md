@@ -27,5 +27,5 @@ El protocolo se divide en dos partes: la negociación y la transferencia de dato
 # DIAGRAMA
 ![Diagrama](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/diagramaws.png)
 # LINK VIDEO
-
+![VIDEO](https://www.youtube.com/watch?v=f1HxMqZEeeU&feature=youtu.be)
 
