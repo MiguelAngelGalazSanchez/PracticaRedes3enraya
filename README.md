@@ -32,6 +32,8 @@ if(node.get("nj1")!=null)
 + Enviamos el mensaje 
   
   s.sendMessage(new TextMessage(responseNode.toString()));
+  
+ Hacemos esto con los distintos atributos 
                 
                    
                 
