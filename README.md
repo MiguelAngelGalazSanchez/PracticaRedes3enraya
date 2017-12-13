@@ -10,6 +10,32 @@ A la hora de comunicar los movimientos, se ejecuta en el método update , en el 
 
 Los mensajes se intercambian en formato JSON.
 
++ Representamos los objetos JSON como un arbol n-binario
+
+  JsonNode node = mapper.readTree(message.getPayload());
+
++ Obtenemos el valor del atributo a través de su nombre 
+Ej:
+
+if(node.get("nj1")!=null)
+                  
+  nj1=node.get("nj1").asText();
+  
++ Creamos un objeto JSON con Jackson
+
+  ObjectNode responseNode = mapper.createObjectNode();
+  
++ Añadimos atributos y valores 
+
+  responseNode.put("nj1", nj1);
+  
++ Enviamos el mensaje 
+  
+  s.sendMessage(new TextMessage(responseNode.toString()));
+                
+                   
+                
+
 
 
 # CÓMO JUGAR
