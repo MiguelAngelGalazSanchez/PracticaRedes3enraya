@@ -40,9 +40,9 @@ if(node.get("nj1")!=null)
          nj2:nombrejugador2,
          rj1:registradoj1,
          rj2:registradoj2,
-         ptos:puntospasados,
+         ptos:puntospasados}
          
- }
+ 
         
         
 connection.send(JSON.stringify(o));
