@@ -2,7 +2,7 @@
 # PROTOCOLO USADO
 El protocolo se divide en dos partes: la negociación y la transferencia de datos. Como este coexiste con HTTP, la primera comunicación debe realizarse necesariamente a través de una petición HTTP.
 
-Enviamos los datos en un único mensaje , en el cual por websockect enviamos los datos que se intercanbian cliente y servidor.
+Enviamos los datos en un único mensaje , en el cual por websockect procesamos los datos que se intercanbian cliente y servidor.
 
 Esperamos que se envie el jugador uno y esto se envia al servidor , el servidor recibe que el jugador uno esta registrado y por tanto al darle al play de nuevo pedirá el nombre del jugador dos. Los nombres de los jugadores son pasados de igual forma, así podrá guardar las variables y actualizar correctamente el ranking.
 
