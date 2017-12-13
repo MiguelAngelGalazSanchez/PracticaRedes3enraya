@@ -34,6 +34,27 @@ if(node.get("nj1")!=null)
   s.sendMessage(new TextMessage(responseNode.toString()));
   
  Hacemos esto con los distintos atributos 
+ 
+ {
+         nj1:nombrejugador1,
+         nj2:nombrejugador2,
+         rj1:registradoj1,
+         rj2:registradoj2,
+         ptos:puntospasados,
+         
+ }
+        
+        
+connection.send(JSON.stringify(o));
+
+Estos datos son enviados y transformados a JSON, nj1 enviara el nombre del jugador 1, por ejemplo "Pepe" , llegará al servidor y el cliente de nuevo recibirá el nombre , en este mismo momento, la variable registradoj1 se pondrá a true, entonces podremos insertar el nombre del jugador dos de la misma forma que el jugador uno, registrando al jugador dos y llegando al servidor, que sera enviado por el cliente y por tanto podrá comenzar la partida.
+
+Las variables rj1 y rj2 contendrán los valores true y los atributos nombre  serán rellenados con el String introducido.
+
+Tras acabar la partida e intercambiar en el metodo update, ya que este se actualiza cada frame, los distintos movimientos.
+
+Para realizar todo este proceso, metemos en distintos atributos las variables del JSON. Por ejemplo si nombrejugador1 vale "Pepe" como hemos dicho, este valor llegará al manejador y será devuelto con este valor , guardándolo asi para los HTMLS
+        
                 
                    
                 
