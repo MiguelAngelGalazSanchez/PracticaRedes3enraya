@@ -2,6 +2,16 @@
 # PROTOCOLO USADO
 El protocolo se divide en dos partes: la negociación y la transferencia de datos. Como este coexiste con HTTP, la primera comunicación debe realizarse necesariamente a través de una petición HTTP.
 
+Enviamos los datos en un único mensaje , en el cual por websockect enviamos los datos que se intercanbian cliente y servidor.
+
+Esperamos que se envie el jugador uno y esto se envia al servidor , el servidor recibe que el jugador uno esta registrado y por tanto al darle al play de nuevo pedirá el nombre del jugador dos. Los nombres de los jugadores son pasados de igual forma, así podrá guardar las variables y actualizar correctamente el ranking.
+
+A la hora de comunicar los movimientos, se ejecuta en el método update , en el cual nuestra función recibe una ficha del tablero y mediante websockect le llega al otro jugador; de igual forma que al saber si los puntos ya se han pasado.
+
+Los mensajes se intercambian en formato JSON.
+
+
+
 # CÓMO JUGAR
 ![Pantalla de inicio](https://github.com/MiguelAngelGalazSanchez/PracticaRedes3enraya/blob/fasev4/imagenesFase4/Pantalla%20de%20inicio.PNG)
 + Abrimos dos pantallas diferentes en nuestro navegador con la url: locahost:8090/TresEnRaya.html
